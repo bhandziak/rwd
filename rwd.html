@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Portfolio Bartłomiej Handziak 2ib2</title>
+  <meta name="description" content="Portfolio">
+  <meta name="author" content="Bartłomiej Handziak">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap" rel="stylesheet">
+
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/logo.png">
+
+  <script>
+    function showDetails(person) {
+      var nationality = person.getAttribute("data");
+      alert(person.innerHTML + " pochodzi z " + nationality + ".");
+    }
+  </script>
+
+</head>
+<body>
+
+<header class="header">
+    <div class="logo">
+<h1 class="portfolio">Portfolio</h1>
+    </div>
+</header>
+
+<form class="container clearfix">
+
+
+<label for="all">Wszystkie</label>
+<img class="wszystkie" src="images/img-1.jpg"/><img class="wszystkie" src="images/img-2.jpg"/>
+<img class="wszystkie" src="images/poster.jpg"/>
+<img class="wszystkie" src="images/font-1.jpg"/>
+<img class="wszystkie" src="images/opakowanie.jpg"/>
+
+<label for="illustrations">Ilustracje</label>
+<img src="images/img-1.jpg"/><img src="images/img-2.jpg"/>
+<label class="nav-menu" for="posters">Plakaty</label>
+<img src="images/poster.jpg"/>
+<label for="typography">Typografia</label>
+<img src="images/font-1.jpg"/>
+<label for="packaging">Opakowania</label>
+<img src="images/opakowanie.jpg"/>
+<section class="portfolio">
+  <figure class="four columns all poster" data category="ilustracje">
+    <img src="images/logo.png" class="logo" alt="To jest pierwsza miniatura portfolio.">
+    <figcaption>
+      <h4>Lorem Ipsum</h4>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed egestas tincidunt gravida. Vivamus ullamcorper sapien ut sapien finibus, et luctus dui tempor. Aliquam fringilla varius nulla, eget fringilla eros viverra vitae. Suspendisse fermentum eu nunc eu interdum. Aenean hendrerit enim non ullamcorper commodo. Pellentesque orci mauris, eleifend quis velit nec, rutrum aliquam mi. Aenean id mauris sed diam dapibus dapibus. Nunc eu efficitur sapien.</p>
+    </figcaption>
+</figure>
+
+</form>
+
+<footer class="container clearfix">
+  <div class="contact">
+<ul>
+<li class="contact-name">Bartłomiej Handziak</li>
+<li class="contact-phone">(+48) 123-123-123</li>
+<li class="contact-email">bartek.handziak@gmail.com</li>
+</ul>
+  </div>
+  <div class="social">
+<p class="copyright" data="Polski" onclick="showDetails(this)">Bartłomiej Handziak</p><h6>(kliknij powyżej)</h6>
+<ul>
+<li class="social-dribbble">
+<a href="https://dribbble.com/">Dribbble</a></li>
+<li class="social-facebook">
+<a href="https://www.facebook.com/">Facebook</a></li>
+<li class="social-twitter">
+<a href="https://twitter.com/explore">Twitter</a></li>
+</ul>
+  </div>
+</footer>
+
+  
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>

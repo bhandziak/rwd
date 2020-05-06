@@ -1,0 +1,55 @@
+body {
+    background-color: #eeffeb;
+}
+
+* {
+    font-family: 'Raleway' ,'Karla', sans-serif, Helvetica, Arial ;
+}
+
+.portfolio {
+    font-family: 'Karla';
+}
+
+
+header {
+    background-color: #41c238;
+    color: white;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+     }
+
+
+img {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    border: 6px;
+    border-style: solid;
+    border-color: #41c238;
+    margin: 6px;
+}
+
+.wszystkie {
+    max-width: 15%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Karla';
+    font-size: 2rem;
+}
+
+.logo {
+    border: none;
+}
+
+

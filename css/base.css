@@ -1,0 +1,37 @@
+
+.social-dribbble {
+    list-style-image: url("/images/ikony/Dribbble.png");
+}
+
+.social-dribbble:hover {
+    list-style-image: url("/images/ikony/Dribbble-hover.png");
+}
+
+.social-facebook {
+    list-style-image: url("/images/ikony/facebook.png");
+}
+
+.social-facebook:hover {
+    list-style-image: url("/images/ikony/facebook-hover.png");
+}
+
+.social-twitter {
+    list-style-image: url("/images/ikony/twitter.png");
+}
+
+.social-twitter:hover {
+    list-style-image: url("/images/ikony/twitter-hover.png");
+}
+
+.contact-name {
+    list-style-image: url("/images/kontakt/person.png");
+}
+
+.contact-phone {
+    list-style-image: url("/images/kontakt/phone.png");
+}
+
+.contact-email {
+    list-style-image: url("/images/kontakt/mail.png");
+}
+
